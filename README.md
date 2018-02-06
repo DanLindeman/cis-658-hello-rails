@@ -5,20 +5,30 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+### Ruby version
+2.5.0
 
-* System dependencies
+### Rails version
+5.1.4
 
-* Configuration
+### Installation
+Clone the repo
+```
+git clone git@github.com:DanLindeman/cis-658-hello-rails.git
 
-* Database creation
+```
 
-* Database initialization
+Install the dependencies with bundler
+```
+bundle install
+```
 
-* How to run the test suite
+Migrate the database
+```
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run the server
+```
+rails server
+```
